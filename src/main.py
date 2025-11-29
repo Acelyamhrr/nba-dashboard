@@ -1,7 +1,7 @@
 import sys
 import pandas as pd
 
-from database import NBADatabase
+from src.database import NBADatabase
 from scraper import NBAStatsScraper
 from utils import display_stats_summary, compare_players, calculate_efficiency
 

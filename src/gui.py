@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, filedialog
 import pandas as pd
-from database import NBADatabase
+from database import NBADatabase  # Enlève "src."
 from scraper import NBAStatsScraper
 from visualizations import (plot_top_scorers, plot_player_comparison,
                             plot_team_analysis, plot_efficiency_scatter,
